@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    font-family: "lato";
+}
+header{
+    min-height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.705)) , url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    height: 100px;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+.main-nav {
+   list-style: none;
+   display: flex;
+}
+.main-nav li{
+    margin-right: 20px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.main-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.hero{
+    
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+h1{
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.btn{
+ color: orange;
+ border: 1px solid orange;
+ border-radius: 7px;
+ margin-right: 15px;
+ padding: 7px 15px;
+ text-decoration: none;
+ letter-spacing: 2px;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+    
+}
+section{
+    padding: 50px 0;
+
+}
+
+h2{
+    margin: 20px auto;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+hr{
+    width: 100px;
+    border: 2px solid orangered;
+    margin: 20px auto;
+    background-color: orangered;
+}
+
+
+.features-info{
+    width: 60%;
+    text-align: center;
+margin: 20px auto;
+line-height: 1.5;
+}
+.box i{
+    color: orangered;
+    font-size: 30px;
+    margin:25px 0;
+}
+.box h3{
+    letter-spacing: 1px;
+}
+.box p{
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.meal{
+    padding: 0;
+    margin-bottom: -5px;
+    overflow: hidden;
+    background-color: black;
+}
+.meal img{
+    width: 100%;
+    transform: scale(1.5);
+    opacity: .6;
+    transition:all 1s;
+}
+.meal img:hover{
+    transform: scale(1);   
+    opacity: 1;
+}
+.app-iphone{
+    width: 35%;
+}
+.right{
+    text-align: right;
+    margin-top: 20px;
+}
+.left{
+    text-align: left;
+    margin-top: 40px;
+    
+
+}
+.step{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.step div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid orangered;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.store{
+    padding-top: 20px;
+    display: flex;
+
+} 
+.store img{
+    height: 50px;
+    margin-right: 20px;
+}
+
+.city img{
+    width: 100%;
+}
+.city-info{
+    display: flex;
+    margin-bottom: 10px;
+}
+.city h3{
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+.city-info i{
+    color: orangered;
+    margin-right: 10px;
+}
+.city a{
+    color: orangered;
+}
+#testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.673),rgba(0, 0, 0, 0.673)),url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.customer{
+    margin-top: 20px;
+}
+#testimonials p{
+    margin: 20px 0;
+}
+#testimonials img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.plan{
+    margin-left: 60px;
+    background-color: rgb(245, 239, 239);
+}
+
+.plan1 h3{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.month{
+    color: orangered;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.month span{
+    font-size: 16px;
+}
+.plan hr{
+    width: 100%;
+    border: 1px solid white;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.check i{
+    color: orangered;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.check p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.button{
+    color: orangered;
+    border-radius: 20px;
+    border: 1px solid orangered;
+    padding: 7px 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+.button:hover{
+    color: white;
+    background-color: orangered;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    outline-color: orangered;
+}
+input[type=checkbox]{
+    background-color: black;
+    margin-left: 5px;
+}
+button{
+    border: 2px solid orangered;
+    border-radius: 60px;
+    padding: 15px 7px;
+    color: orangered;
+    background-color: white;
+    width: 120px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+button:hover{
+    color: white;
+    background-color: rgb(255, 106, 52);
+}
+footer{
+    background-color: black;
+    padding: 50px 0px;
+
+}
+
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav li a{
+text-decoration: none;
+color:gray;
+}
+
+.footer-social ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.footer-social li {
+color:gray;
+margin-right: 10px;
+}
+.footer-social li a{
+    color: gray;
+}
+ footer p{
+     color: gray;
+     margin-top: 20px;
+     text-align: center;
+     
+ }
